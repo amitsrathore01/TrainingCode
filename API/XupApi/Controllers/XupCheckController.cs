@@ -103,7 +103,7 @@ namespace XupApi.Controllers
                 }
                 
 
-                var model = _mapper.Map<CheckRegister>(newcheck);
+                var model =  _mapper.Map<CheckRegister>(newcheck);
                 await _checkregisterService.AddCheck(model);
                 return Ok();
 
