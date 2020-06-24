@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "XupMonitor": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

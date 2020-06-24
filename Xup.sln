@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XupMonitor", "Monitor\XupMonitor.csproj", "{DDCF923F-A6BD-4421-9DFA-4F08A7042017}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XupApi", "API\XupApi\XupApi.csproj", "{9872DF65-79D0-4966-A6AD-F753137B7EEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XupTest", "Test\XupTest\XupTest.csproj", "{62735B0D-BAA6-41CB-A52F-F684C1F549E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDCF923F-A6BD-4421-9DFA-4F08A7042017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDCF923F-A6BD-4421-9DFA-4F08A7042017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDCF923F-A6BD-4421-9DFA-4F08A7042017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDCF923F-A6BD-4421-9DFA-4F08A7042017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9872DF65-79D0-4966-A6AD-F753137B7EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9872DF65-79D0-4966-A6AD-F753137B7EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9872DF65-79D0-4966-A6AD-F753137B7EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9872DF65-79D0-4966-A6AD-F753137B7EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62735B0D-BAA6-41CB-A52F-F684C1F549E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62735B0D-BAA6-41CB-A52F-F684C1F549E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62735B0D-BAA6-41CB-A52F-F684C1F549E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62735B0D-BAA6-41CB-A52F-F684C1F549E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {053FAA69-377A-4A23-BE37-C4A05B855D5A}
+	EndGlobalSection
+EndGlobal
